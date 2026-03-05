@@ -1,0 +1,10 @@
+{
+  "Feature Set": "Cross-sectional (breadth, dispersion, skew, kurt, volume) + Time-series (RSI, MACD, 4-scale rolling vol, MA cross, autocorr) + Selective lag aggregates (mean/change over 10d)",
+  "Lag Window": "10 days",
+  "Neural Network Architecture": "BN-56\u219264\u2192[ResBlock\u00d71]\u219232\u21921",
+  "Test Accuracy": "0.6615",
+  "Test AUC-ROC": "0.6161",
+  "Test F1": "0.7655",
+  "Horizon": "10 days",
+  "Method": "3-Seed Ensemble (AdamW + CosineAnnealing + EarlyStopping)"
+}
